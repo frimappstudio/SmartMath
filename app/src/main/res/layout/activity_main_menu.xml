@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
+    tools:context="com.frimapp.smartmath.MainMenu"
+    android:background="#eeeeee">
+
+    <TextView
+        android:id="@+id/Start"
+        android:layout_width="256dp"
+        android:layout_height="86dp"
+        android:textSize="32dp"
+        android:textColor="#000000"
+        android:background="@drawable/button"
+        android:textStyle="bold"
+        android:text="Materi"
+        android:onClick="Start"
+        android:gravity="center"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/Rumus"
+        android:layout_width="256dp"
+        android:layout_height="86dp"
+        android:textSize="32dp"
+        android:textColor="#000000"
+        android:background="@drawable/button"
+        android:textStyle="bold"
+        android:text="Rumus"
+        android:onClick="Rumus"
+        android:gravity="center"
+        android:layout_below="@+id/Start"
+        android:layout_alignLeft="@+id/Start"
+        android:layout_alignStart="@+id/Start" />
+    <TextView
+        android:id="@+id/Kokgitu"
+        android:layout_width="256dp"
+        android:layout_height="86dp"
+        android:textSize="32dp"
+        android:textColor="#000000"
+        android:background="@drawable/button"
+        android:textStyle="bold"
+        android:text="Kok Gitu?"
+        android:onClick="Kokgitu"
+        android:gravity="center"
+        android:layout_below="@+id/Rumus"
+        android:layout_alignLeft="@+id/Rumus"
+        android:layout_alignStart="@+id/Rumus" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@null"
+        android:onClick="About"
+        android:src="@drawable/about"
+        android:scaleType="centerInside"
+        android:layout_above="@+id/adView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/LogOut"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@null"
+        android:onClick="Keluar"
+        android:src="@drawable/logout"
+        android:scaleType="centerInside"
+        android:layout_above="@+id/imageButton2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4794273081489592/5709678263">
+    </com.google.android.gms.ads.AdView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#00aaff"
+        android:id="@+id/relativeLayout"
+        android:gravity="top|left|right"
+        android:longClickable="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true">
+
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/koin"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="0"
+            android:id="@+id/textView11"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_alignBaseline="@+id/textView12"
+            android:layout_alignBottom="@+id/textView12"
+            android:layout_toLeftOf="@+id/imageView"
+            android:layout_toStartOf="@+id/imageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="NAMA"
+            android:id="@+id/textView12"
+            android:textSize="21dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/Level"
+            android:layout_toEndOf="@+id/Level" />
+
+        <TextView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/Level"
+            android:textColor="#000000"
+            android:background="@drawable/level"
+            android:gravity="center"
+            android:longClickable="false"
+            android:text="0"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

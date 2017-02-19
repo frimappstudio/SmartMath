@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "531013552047",
+    "firebase_url": "https://smartmath-3cd15.firebaseio.com",
+    "project_id": "smartmath-3cd15",
+    "storage_bucket": "smartmath-3cd15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531013552047:android:a5a49002112b4b7b",
+        "android_client_info": {
+          "package_name": "com.frimapp.smartmath"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531013552047-hogb1e6gj6j6amoad7dir3vlgbupkgib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGPElHgOB5Lhip7lBEVOwjmUdYN6CrdpM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

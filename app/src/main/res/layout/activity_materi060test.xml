@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context=".Materi60testActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="00:00"
+        android:id="@+id/counttext1"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="TES BELAH KETUPAT II"
+        android:id="@+id/textView3"
+        android:textSize="21sp"
+        android:background="#0066ff"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="."
+        android:id="@+id/textView13"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout"
+        android:layout_above="@+id/gridLayoutc"
+        android:layout_alignRight="@+id/gridLayoutc"
+        android:layout_alignEnd="@+id/gridLayoutc">>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="125dp"
+            android:text="A"
+            android:onClick="jawabanA"
+            android:id="@+id/buttonA" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayoutb"
+        android:layout_above="@+id/gridLayoutd"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView13"
+        android:layout_toEndOf="@+id/textView13">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="125dp"
+            android:text="B"
+            android:onClick="jawabanB"
+            android:id="@+id/buttonB"
+            android:layout_below="@+id/frameLayout"
+            android:layout_toRightOf="@+id/gridLayout"
+            android:layout_toEndOf="@+id/gridLayout" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/gridLayoutc"
+        android:layout_toStartOf="@+id/textView13"
+        android:layout_toLeftOf="@+id/textView13">>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="125dp"
+            android:text="C"
+            android:onClick="jawabanC"
+            android:id="@+id/buttonC" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayoutd"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView13"
+        android:layout_toEndOf="@+id/textView13">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="125dp"
+            android:text="D"
+            android:onClick="jawabanD"
+            android:id="@+id/buttonD"
+            android:layout_below="@+id/gridLayout"
+            android:layout_toRightOf="@+id/textView13"
+            android:layout_toEndOf="@+id/textView13" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/counttext1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/gridLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView2"
+            android:src="@drawable/materitest0308"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="p"
+            android:id="@+id/textView5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:textColor="#0050da"
+            android:layout_marginTop="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_alignStart="@+id/textView8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Luas = ....."
+            android:id="@+id/textView8"
+            android:singleLine="false"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="l"
+            android:id="@+id/textView6"
+            android:textColor="#ffd000"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/textView8"
+            android:layout_alignEnd="@+id/textView8" />
+
+    </RelativeLayout>
+</RelativeLayout>
+

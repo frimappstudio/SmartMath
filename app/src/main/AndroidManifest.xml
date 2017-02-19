@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.frimapp.smartmath">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".MainMenu" />
+        <activity android:name=".ListMenu" />
+        <activity android:name=".Materi1Activity" />
+        <activity android:name=".Materi1testActivity" />
+        <activity android:name=".Materi5Activity" />
+        <activity android:name=".Materi5testActivity" />
+        <activity android:name=".Materi9Activity" />
+        <activity android:name=".Materi9testActivity" />
+        <activity android:name=".About" />
+        <activity android:name=".Materi13Activity" />
+        <activity android:name=".Materi13testActivity" />
+        <activity android:name=".Materi37Activity" />
+        <activity android:name=".Materi37testActivity" />
+        <activity android:name=".Materi39Activity" />
+        <activity android:name=".Materi39testActivity" />
+        <activity android:name=".Materi2Activity" />
+        <activity android:name=".Materi2testActivity" />
+        <activity android:name=".Materi38Activity" />
+        <activity android:name=".Materi38testActivity" />
+        <activity android:name=".Materi40Activity" />
+        <activity android:name=".Materi40testActivity" />
+        <activity android:name=".Materi41Activity" />
+        <activity android:name=".Materi41testActivity" />
+        <activity android:name=".Materi42testActivity" />
+        <activity android:name=".Materi42Activity" />
+        <activity android:name=".Materi43Activity" />
+        <activity android:name=".Materi43testActivity" />
+        <activity android:name=".Materi44Activity" />
+        <activity android:name=".Materi44testActivity" />
+        <activity android:name=".Materi45Activity" />
+        <activity android:name=".Materi45testActivity" />
+        <activity android:name=".Materi46Activity" />
+        <activity android:name=".Materi46testActivity" />
+        <activity android:name=".Materi47Activity" />
+        <activity android:name=".Materi47testActivity" />
+        <activity android:name=".Materi48Activity" />
+        <activity android:name=".Materi48testActivity" />
+        <activity android:name=".Materi57Activity" />
+        <activity android:name=".Materi57testActivity" />
+        <activity android:name=".Materi58Activity" />
+        <activity android:name=".Materi58testActivity" />
+        <activity android:name=".Materi59Activity" />
+        <activity android:name=".Materi59testActivity" />
+        <activity android:name=".Materi60Activity" />
+        <activity android:name=".Materi60testActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".Materi61Activity" />
+        <activity android:name=".Materi61testActivity" />
+        <activity android:name=".Materi62Activity" />
+        <activity android:name=".Materi62testActivity" />
+        <activity android:name=".Materi63Activity" />
+        <activity android:name=".Materi63testActivity" />
+        <activity android:name=".Materi64Activity" />
+        <activity android:name=".Materi64testActivity" />
+        <activity android:name=".Materi70Activity" />
+        <activity android:name=".Materi70testActivity" />
+        <activity android:name=".Materi71Activity" />
+        <activity android:name=".Materi71testActivity" />
+        <activity android:name=".Materi72Activity" />
+        <activity android:name=".Materi72testActivity"></activity>
+    </application>
+
+</manifest>

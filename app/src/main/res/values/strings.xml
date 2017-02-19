@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SmartMath</string>
+
+    <string name="materi1">Pertambahan</string>
+    <string name="materi1a">1. Pengenalan</string>
+    <string name="materi1b">Pertambahan</string>
+    <string name="materi1c">Pertambahan</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
